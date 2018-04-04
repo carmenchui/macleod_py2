@@ -19,3 +19,6 @@
 2018-04-03 22:55:54,467 ReasonerProcess                INFO     STARTING: ReasonerProcess-1, command = ./provers/p9m4/prover9
 2018-04-03 22:55:54,573 ReasonerProcess                INFO     STARTING: ReasonerProcess-2, command = ./provers/vampire_mac
 2018-04-03 22:55:54,680 ReasonerProcess                INFO     STARTING: ReasonerProcess-3, command = ./provers/p9m4/mace4
+2018-04-04 11:35:31,320 ReasonerProcess                INFO     STARTING: ReasonerProcess-1, command = ./provers/p9m4/prover9
+2018-04-04 11:35:31,427 ReasonerProcess                INFO     STARTING: ReasonerProcess-2, command = ./provers/vampire_mac
+2018-04-04 11:35:31,532 ReasonerProcess                INFO     STARTING: ReasonerProcess-3, command = ./provers/p9m4/mace4
