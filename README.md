@@ -9,8 +9,12 @@ Installation:
 -------------
 mostly for mac since the scripts appear to run on python 2.7 on mac os x 10.10+ (yosemite or higher)
 * clone repo or download zip from github
-* change file paths in macleod\_mac.conf and logging.conf (see conf/ folder)
+* change file paths in macleod\_mac.conf (see conf/ folder)
 * create provers/ folder with the **mac** ladr and vampire binaries - send me a msg if you need them but the vampire\_mac binaries i have are very old
+* give macleod\_py2 folder executable permission (just in case errors show up)
+```bash
+chmod +x macleod\_py2
+```
 * install texttable
 ```bash
 sudo pip install texttable
@@ -32,7 +36,9 @@ python gui/gui_alpha.py
 
 Consistency Check:
 ------------------
-* ladr consistency check appears to work... unsure about vampire at the moment?? system hangs
+* ladr consistency check appears to work
+![consistency](/doc/img/2018-04-04_12-05-55.jpg?raw=true)
+* **vampire has been disabled** in the provers section of macleod\_mac.conf because it throws an OS-level error with python and it causes macleod to hang
 
 Translations:
 -------------
@@ -44,7 +50,4 @@ translations will go into the /generated and /conversions file of wherever you s
 
 Noted Errors:
 -------------
-there is a logging error in line 406 of src/clif.py when the script tries to open a clif file but it does not appear to affect any functionality
-![406error](/doc/img/2018-04-04_11-25-16.jpg?raw=true)
-
 gui does hang for a little bit if working with big files (be patient??)

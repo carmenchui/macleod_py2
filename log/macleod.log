@@ -441,3 +441,912 @@
 2018-04-04 11:44:18,455 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
 2018-04-04 11:44:18,734 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
 2018-04-04 11:44:18,982 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:44:46,776 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:44:46,776 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:44:46,809 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.p9
+2018-04-04 11:44:47,069 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.p9
+2018-04-04 11:44:47,070 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:44:47,370 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp
+2018-04-04 11:44:47,371 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp']
+2018-04-04 11:44:47,371 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:44:47,374 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:44:47,818 src.filemgt                    DEBUG    Looking for /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf at: .
+2018-04-04 11:44:47,818 src.filemgt                    DEBUG    /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf FOUND
+2018-04-04 11:44:47,822 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 11:44:48,829 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2018-04-04 11:44:48,829 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2018-04-04 11:44:48,829 src.process                    INFO     FOUND MODEL: ./provers/p9m4/mace4
+2018-04-04 11:44:48,829 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/prover9
+2018-04-04 11:44:48,830 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/vampire_mac
+2018-04-04 11:47:15,207 src.filemgt                    DEBUG    Logging started
+2018-04-04 11:47:15,208 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf
+2018-04-04 11:47:19,881 src.ClifModuleSet              INFO     Creating ClifModuleSet /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:47:19,883 src.ClifModule                 INFO     processing module: /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:47:19,888 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/most.clif
+2018-04-04 11:47:19,889 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:47:19,891 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:47:20,160 src.ClifModule                 DEBUG    imports detected in /Users/cchui/Documents/GitHub/colore/ontologies/most/most: set(['molecular_graph/most_graph'])
+2018-04-04 11:47:20,425 src.clif                       DEBUG    Nonlogical symbols: set(['fork', 'bridge', 'saturated', 'skeleton', 'chain', 'fusedSkeleton', 'atom', 'multiply_fused', 'part', 'ringBond', 'mol', 'fused', 'tether', 'unsaturated', 'group', 'spiro', 'alternatinggroup', 'ring', 'bridgehead', 'attached', 'inSkeleton', 'trivialgroup', 'fusedAtom', 'end', 'doublebond', 'between', 'linearskeleton', 'intersects', 'singlebond', 'scaffold', 'bond'])
+2018-04-04 11:47:20,426 src.ClifModule                 INFO     processing module: molecular_graph/most_graph
+2018-04-04 11:47:20,429 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/most_graph.clif
+2018-04-04 11:47:20,429 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:47:20,431 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:47:20,462 src.ClifModule                 DEBUG    imports detected in molecular_graph/most_graph: set([])
+2018-04-04 11:47:20,490 src.clif                       DEBUG    Nonlogical symbols: set(['atom', 'mol', 'bond'])
+2018-04-04 11:47:20,521 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:47:20,544 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:47:20,568 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:47:20,830 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:47:21,085 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:47:21,331 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:47:21,577 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:47:21,816 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:47:22,052 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:47:22,293 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:47:22,542 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:47:22,789 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:47:23,032 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:47:23,287 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:47:23,528 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:47:23,766 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:47:24,003 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:47:24,251 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:47:24,495 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:47:24,753 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:47:24,999 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:47:25,265 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:47:25,519 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:47:25,773 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:47:26,026 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:47:26,274 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:47:26,548 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:47:26,814 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:47:27,070 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:47:27,350 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:47:27,635 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:47:27,911 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:47:28,201 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:47:28,473 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:47:28,748 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:47:29,026 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:47:29,279 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:47:29,537 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:47:29,787 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:47:30,039 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:47:30,285 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:47:30,552 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:47:30,809 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:47:31,058 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:47:31,313 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:47:31,569 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:47:31,833 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:47:32,074 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:47:32,323 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:47:32,571 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:47:32,827 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:47:33,071 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:47:33,323 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:47:33,587 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:47:33,833 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:47:34,076 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:47:34,322 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:47:34,573 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:47:34,838 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:47:35,118 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:47:35,376 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:47:35,637 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:47:35,897 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:47:36,149 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:47:36,414 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:47:36,446 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:47:36,471 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:47:36,498 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:47:36,568 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:47:36,592 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:47:36,616 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:47:36,871 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:47:37,118 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:47:37,377 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:47:37,638 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:47:37,904 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:47:38,175 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:47:38,430 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:47:38,690 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:47:38,930 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:47:39,183 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:47:39,444 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:47:39,684 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:47:39,925 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:47:40,180 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:47:40,425 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:47:40,684 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:47:41,074 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:47:41,327 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:47:41,584 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:47:41,850 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:47:42,110 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:47:42,374 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:47:42,626 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:47:42,879 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:47:43,127 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:47:43,372 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:47:43,632 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:47:43,891 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:47:44,164 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:47:44,424 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:47:44,668 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:48:13,878 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:48:13,879 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:48:13,908 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.p9
+2018-04-04 11:48:14,178 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.p9
+2018-04-04 11:48:14,179 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:48:14,484 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp
+2018-04-04 11:48:14,484 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp']
+2018-04-04 11:48:14,485 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:48:14,489 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:48:14,925 src.filemgt                    DEBUG    Looking for /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf at: .
+2018-04-04 11:48:14,925 src.filemgt                    DEBUG    /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf FOUND
+2018-04-04 11:48:14,929 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 11:48:15,937 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2018-04-04 11:48:15,937 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2018-04-04 11:48:15,937 src.process                    INFO     FOUND MODEL: ./provers/p9m4/mace4
+2018-04-04 11:48:15,938 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/prover9
+2018-04-04 11:48:15,939 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/vampire_mac
+2018-04-04 11:51:11,973 src.filemgt                    DEBUG    Logging started
+2018-04-04 11:51:11,973 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf
+2018-04-04 11:51:16,581 src.ClifModuleSet              INFO     Creating ClifModuleSet /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:51:16,583 src.ClifModule                 INFO     processing module: /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:51:16,588 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/most.clif
+2018-04-04 11:51:16,588 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:51:16,590 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:51:16,852 src.ClifModule                 DEBUG    imports detected in /Users/cchui/Documents/GitHub/colore/ontologies/most/most: set(['molecular_graph/most_graph'])
+2018-04-04 11:51:17,103 src.clif                       DEBUG    Nonlogical symbols: set(['fork', 'bridge', 'saturated', 'skeleton', 'chain', 'fusedSkeleton', 'atom', 'multiply_fused', 'part', 'ringBond', 'mol', 'fused', 'tether', 'unsaturated', 'group', 'spiro', 'alternatinggroup', 'ring', 'bridgehead', 'attached', 'inSkeleton', 'trivialgroup', 'fusedAtom', 'end', 'doublebond', 'between', 'linearskeleton', 'intersects', 'singlebond', 'scaffold', 'bond'])
+2018-04-04 11:51:17,104 src.ClifModule                 INFO     processing module: molecular_graph/most_graph
+2018-04-04 11:51:17,109 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/most_graph.clif
+2018-04-04 11:51:17,109 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:51:17,110 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:51:17,140 src.ClifModule                 DEBUG    imports detected in molecular_graph/most_graph: set([])
+2018-04-04 11:51:17,169 src.clif                       DEBUG    Nonlogical symbols: set(['atom', 'mol', 'bond'])
+2018-04-04 11:51:17,193 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:51:17,217 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:51:17,241 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:51:17,497 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:51:17,748 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:51:17,988 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:51:18,230 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:51:18,476 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:51:18,719 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:51:18,966 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:51:19,205 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:51:19,442 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:51:19,679 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:51:19,920 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:51:20,162 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:51:20,412 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:51:20,664 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:51:20,926 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:51:21,183 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:51:21,437 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:51:21,689 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:51:21,944 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:51:22,194 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:51:22,477 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:51:22,734 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:51:22,999 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:51:23,256 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:51:23,513 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:51:23,762 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:51:24,017 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:51:24,274 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:51:24,525 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:51:24,782 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:51:25,030 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:51:25,287 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:51:25,544 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:51:25,789 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:51:26,045 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:51:26,301 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:51:26,555 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:51:26,806 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:51:27,055 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:51:27,298 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:51:27,541 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:51:27,796 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:51:28,039 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:51:28,286 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:51:28,527 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:51:28,767 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:51:29,024 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:51:29,266 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:51:29,523 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:51:29,781 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:51:30,037 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:51:30,278 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:51:30,521 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:51:30,764 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:51:31,011 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:51:31,262 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:51:31,521 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:51:31,778 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:51:32,035 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:51:32,288 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:51:32,543 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:51:32,795 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:51:32,823 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:51:32,848 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:51:32,875 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:51:32,940 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:51:32,964 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:51:32,988 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:51:33,251 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:51:33,505 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:51:33,768 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:51:34,024 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:51:34,278 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:51:34,539 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:51:34,789 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:51:35,044 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:51:35,289 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:51:35,537 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:51:35,787 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:51:36,038 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:51:36,281 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:51:36,526 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:51:36,777 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:51:37,025 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:51:37,276 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:51:37,526 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:51:37,765 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:51:38,019 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:51:38,261 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:51:38,520 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:51:38,775 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:51:39,028 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:51:39,275 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:51:39,535 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:51:39,776 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:51:40,029 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:51:40,303 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:51:40,554 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:51:40,810 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:51:46,310 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.p9
+2018-04-04 11:51:46,592 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.p9
+2018-04-04 11:51:49,204 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:51:49,205 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:51:49,206 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:51:49,506 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp
+2018-04-04 11:51:49,506 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp']
+2018-04-04 11:51:49,507 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:51:49,511 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:51:49,950 src.filemgt                    DEBUG    Looking for /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf at: .
+2018-04-04 11:51:49,951 src.filemgt                    DEBUG    /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf FOUND
+2018-04-04 11:51:49,954 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 11:51:50,959 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2018-04-04 11:51:50,959 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2018-04-04 11:51:50,960 src.process                    INFO     FOUND MODEL: ./provers/p9m4/mace4
+2018-04-04 11:51:50,960 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/prover9
+2018-04-04 11:51:50,961 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/vampire_mac
+2018-04-04 11:53:38,619 src.filemgt                    DEBUG    Logging started
+2018-04-04 11:53:38,619 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf
+2018-04-04 11:53:43,286 src.ClifModuleSet              INFO     Creating ClifModuleSet /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:53:43,288 src.ClifModule                 INFO     processing module: /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:53:43,293 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/most.clif
+2018-04-04 11:53:43,293 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:53:43,295 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:53:43,553 src.ClifModule                 DEBUG    imports detected in /Users/cchui/Documents/GitHub/colore/ontologies/most/most: set(['molecular_graph/most_graph'])
+2018-04-04 11:53:43,807 src.clif                       DEBUG    Nonlogical symbols: set(['fork', 'bridge', 'saturated', 'skeleton', 'chain', 'fusedSkeleton', 'atom', 'multiply_fused', 'part', 'ringBond', 'mol', 'fused', 'tether', 'unsaturated', 'group', 'spiro', 'alternatinggroup', 'ring', 'bridgehead', 'attached', 'inSkeleton', 'trivialgroup', 'fusedAtom', 'end', 'doublebond', 'between', 'linearskeleton', 'intersects', 'singlebond', 'scaffold', 'bond'])
+2018-04-04 11:53:43,809 src.ClifModule                 INFO     processing module: molecular_graph/most_graph
+2018-04-04 11:53:43,812 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/most_graph.clif
+2018-04-04 11:53:43,812 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:53:43,813 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:53:43,842 src.ClifModule                 DEBUG    imports detected in molecular_graph/most_graph: set([])
+2018-04-04 11:53:43,867 src.clif                       DEBUG    Nonlogical symbols: set(['atom', 'mol', 'bond'])
+2018-04-04 11:53:43,892 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:53:43,920 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:53:43,944 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:53:44,185 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:53:44,432 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:53:44,672 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:53:44,909 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:53:45,153 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:53:45,408 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:53:45,664 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:53:45,925 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:53:46,176 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:53:46,421 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:53:46,670 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:53:46,914 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:53:47,160 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:53:47,411 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:53:47,657 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:53:47,906 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:53:48,145 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:53:48,385 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:53:48,622 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:53:48,869 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:53:49,107 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:53:49,355 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:53:49,615 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:53:49,857 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:53:50,102 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:53:50,356 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:53:50,600 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:53:50,845 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:53:51,088 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:53:51,346 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:53:51,599 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:53:51,870 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:53:52,138 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:53:52,407 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:53:52,659 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:53:52,922 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:53:53,190 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:53:53,457 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:53:53,716 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:53:53,981 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:53:54,235 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:53:54,495 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:53:54,758 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:53:55,022 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:53:55,280 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:53:55,549 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:53:55,817 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:53:56,084 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:53:56,353 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:53:56,612 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:53:56,870 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:53:57,128 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:53:57,376 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:53:57,630 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:53:57,908 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:53:58,187 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:53:58,443 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:53:58,695 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:53:58,954 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:53:59,213 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:53:59,473 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:53:59,728 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:53:59,758 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:53:59,784 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:53:59,810 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:53:59,880 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:53:59,908 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:53:59,933 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:54:00,203 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:54:00,479 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:54:00,740 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:54:01,014 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:54:01,305 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:54:01,589 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:54:01,868 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:54:02,138 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:54:02,391 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:54:02,642 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:54:02,887 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:54:03,143 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:54:03,394 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:54:03,648 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:54:03,921 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:54:04,179 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:54:04,436 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:54:04,700 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:54:04,956 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:54:05,238 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:54:05,509 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:54:05,768 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:54:06,017 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:54:06,266 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:54:06,527 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:54:06,786 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:54:07,049 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:54:07,298 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:54:07,564 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:54:07,819 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:54:08,095 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:54:19,842 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:54:19,843 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:54:19,872 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.p9
+2018-04-04 11:54:20,139 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.p9
+2018-04-04 11:54:20,140 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:54:20,445 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp
+2018-04-04 11:54:20,445 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp']
+2018-04-04 11:54:20,445 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:54:20,448 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:54:20,883 src.filemgt                    DEBUG    Looking for /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf at: .
+2018-04-04 11:54:20,884 src.filemgt                    DEBUG    /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf FOUND
+2018-04-04 11:54:20,889 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 11:54:21,894 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2018-04-04 11:54:21,894 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2018-04-04 11:54:21,895 src.process                    INFO     FOUND MODEL: ./provers/p9m4/mace4
+2018-04-04 11:54:21,895 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/prover9
+2018-04-04 11:54:21,895 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/vampire_mac
+2018-04-04 11:55:30,342 src.filemgt                    DEBUG    Logging started
+2018-04-04 11:55:30,342 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf
+2018-04-04 11:55:35,151 src.ClifModuleSet              INFO     Creating ClifModuleSet /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:55:35,153 src.ClifModule                 INFO     processing module: /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 11:55:35,159 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/most.clif
+2018-04-04 11:55:35,159 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:55:35,162 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 11:55:35,427 src.ClifModule                 DEBUG    imports detected in /Users/cchui/Documents/GitHub/colore/ontologies/most/most: set(['molecular_graph/most_graph'])
+2018-04-04 11:55:35,676 src.clif                       DEBUG    Nonlogical symbols: set(['fork', 'bridge', 'saturated', 'skeleton', 'chain', 'fusedSkeleton', 'atom', 'multiply_fused', 'part', 'ringBond', 'mol', 'fused', 'tether', 'unsaturated', 'group', 'spiro', 'alternatinggroup', 'ring', 'bridgehead', 'attached', 'inSkeleton', 'trivialgroup', 'fusedAtom', 'end', 'doublebond', 'between', 'linearskeleton', 'intersects', 'singlebond', 'scaffold', 'bond'])
+2018-04-04 11:55:35,677 src.ClifModule                 INFO     processing module: molecular_graph/most_graph
+2018-04-04 11:55:35,680 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/most_graph.clif
+2018-04-04 11:55:35,680 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:55:35,682 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 11:55:35,706 src.ClifModule                 DEBUG    imports detected in molecular_graph/most_graph: set([])
+2018-04-04 11:55:35,733 src.clif                       DEBUG    Nonlogical symbols: set(['atom', 'mol', 'bond'])
+2018-04-04 11:55:35,757 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:55:35,781 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:55:35,811 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:55:36,066 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:55:36,328 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:55:36,582 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:55:36,831 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:55:37,080 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:55:37,333 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:55:37,583 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:55:37,828 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:55:38,077 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:55:38,328 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:55:38,584 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:55:38,830 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:55:39,083 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:55:39,328 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:55:39,574 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:55:39,826 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:55:40,069 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:55:40,325 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:55:40,569 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:55:40,825 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:55:41,072 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:55:41,327 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:55:41,580 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:55:41,821 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:55:42,067 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:55:42,322 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:55:42,584 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:55:42,838 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:55:43,097 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:55:43,363 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:55:43,624 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:55:43,897 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:55:44,158 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:55:44,421 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:55:44,695 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:55:44,959 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:55:45,217 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:55:45,485 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:55:45,743 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:55:45,996 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:55:46,265 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:55:46,520 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:55:46,774 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:55:47,055 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:55:47,366 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:55:47,627 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:55:47,903 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:55:48,146 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:55:48,412 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:55:48,662 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:55:48,914 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:55:49,162 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:55:49,406 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:55:49,653 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:55:49,901 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:55:50,157 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:55:50,411 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:55:50,657 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:55:50,929 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:55:51,190 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:55:51,457 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:55:51,717 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:55:51,744 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:55:51,769 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:55:51,792 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:55:51,858 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:55:51,882 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:55:51,906 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:55:52,150 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 11:55:52,393 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 11:55:52,632 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 11:55:52,890 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 11:55:53,153 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 11:55:53,423 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 11:55:53,688 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 11:55:53,961 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 11:55:54,246 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 11:55:54,522 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 11:55:54,776 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 11:55:55,056 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 11:55:55,310 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 11:55:55,580 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 11:55:55,853 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 11:55:56,143 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 11:55:56,418 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 11:55:56,691 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 11:55:56,950 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 11:55:57,216 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 11:55:57,500 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 11:55:57,742 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 11:55:58,015 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 11:55:58,276 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 11:55:58,556 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 11:55:58,826 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 11:55:59,084 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 11:55:59,352 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 11:55:59,619 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 11:55:59,883 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 11:56:00,138 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 11:57:22,299 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:57:22,300 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:57:22,331 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.p9
+2018-04-04 11:57:22,604 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.p9
+2018-04-04 11:57:22,605 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:57:22,905 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp
+2018-04-04 11:57:22,905 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp']
+2018-04-04 11:57:22,907 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 11:57:22,910 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2018-04-04 11:57:23,351 src.filemgt                    DEBUG    Looking for /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf at: .
+2018-04-04 11:57:23,351 src.filemgt                    DEBUG    /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf FOUND
+2018-04-04 11:57:23,355 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 11:57:24,363 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2018-04-04 11:57:24,364 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2018-04-04 11:57:24,364 src.process                    INFO     FOUND MODEL: ./provers/p9m4/mace4
+2018-04-04 11:57:24,364 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/prover9
+2018-04-04 11:57:24,365 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/vampire_mac
+2018-04-04 12:02:19,840 src.filemgt                    DEBUG    Logging started
+2018-04-04 12:02:19,840 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf
+2018-04-04 12:02:24,994 src.ClifModuleSet              INFO     Creating ClifModuleSet /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 12:02:24,996 src.ClifModule                 INFO     processing module: /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 12:02:25,001 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/most.clif
+2018-04-04 12:02:25,001 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 12:02:25,004 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 12:02:25,263 src.ClifModule                 DEBUG    imports detected in /Users/cchui/Documents/GitHub/colore/ontologies/most/most: set(['molecular_graph/most_graph'])
+2018-04-04 12:02:25,533 src.clif                       DEBUG    Nonlogical symbols: set(['fork', 'bridge', 'saturated', 'skeleton', 'chain', 'fusedSkeleton', 'atom', 'multiply_fused', 'part', 'ringBond', 'mol', 'fused', 'tether', 'unsaturated', 'group', 'spiro', 'alternatinggroup', 'ring', 'bridgehead', 'attached', 'inSkeleton', 'trivialgroup', 'fusedAtom', 'end', 'doublebond', 'between', 'linearskeleton', 'intersects', 'singlebond', 'scaffold', 'bond'])
+2018-04-04 12:02:25,535 src.ClifModule                 INFO     processing module: molecular_graph/most_graph
+2018-04-04 12:02:25,538 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/most_graph.clif
+2018-04-04 12:02:25,538 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 12:02:25,540 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 12:02:25,567 src.ClifModule                 DEBUG    imports detected in molecular_graph/most_graph: set([])
+2018-04-04 12:02:25,593 src.clif                       DEBUG    Nonlogical symbols: set(['atom', 'mol', 'bond'])
+2018-04-04 12:02:25,617 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:02:25,641 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:02:25,664 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:02:25,908 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:02:26,149 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:02:26,387 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:02:26,646 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:02:26,907 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:02:27,155 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:02:27,393 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:02:27,638 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:02:27,886 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:02:28,135 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:02:28,381 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:02:28,621 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:02:28,890 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:02:29,157 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:02:29,417 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:02:29,673 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:02:29,929 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:02:30,169 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:02:30,421 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:02:30,665 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:02:30,904 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:02:31,140 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:02:31,383 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:02:31,630 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:02:31,864 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:02:32,110 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:02:32,365 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:02:32,620 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:02:32,861 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:02:33,129 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:02:33,379 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:02:33,624 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:02:33,864 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:02:34,100 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:02:34,354 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:02:34,598 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:02:34,842 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:02:35,111 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:02:35,373 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:02:35,637 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:02:35,904 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:02:36,163 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:02:36,429 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:02:36,703 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:02:36,950 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:02:37,202 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:02:37,451 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:02:37,717 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:02:37,988 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:02:38,251 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:02:38,494 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:02:38,732 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:02:39,001 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:02:39,254 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:02:39,496 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:02:39,753 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:02:39,988 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:02:40,237 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:02:40,514 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:02:40,769 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:02:41,020 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:02:41,267 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:02:41,293 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:02:41,319 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:02:41,349 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:02:41,421 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:02:41,449 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:02:41,474 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:02:41,713 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:02:41,964 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:02:42,207 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:02:42,461 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:02:42,723 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:02:42,991 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:02:43,248 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:02:43,487 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:02:43,728 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:02:43,996 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:02:44,240 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:02:44,493 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:02:44,756 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:02:45,013 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:02:45,289 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:02:45,552 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:02:45,835 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:02:46,085 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:02:46,350 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:02:46,599 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:02:46,850 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:02:47,087 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:02:47,324 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:02:47,569 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:02:47,815 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:02:48,055 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:02:48,299 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:02:48,545 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:02:48,788 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:02:49,031 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:02:49,269 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:02:53,664 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2018-04-04 12:02:53,664 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 12:02:53,692 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.p9
+2018-04-04 12:02:53,941 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.p9
+2018-04-04 12:02:53,942 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 12:02:54,239 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp
+2018-04-04 12:02:54,239 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.all.tptp']
+2018-04-04 12:02:54,239 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 12:02:54,241 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2018-04-04 12:02:54,670 src.filemgt                    DEBUG    Looking for /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf at: .
+2018-04-04 12:02:54,671 src.filemgt                    DEBUG    /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf FOUND
+2018-04-04 12:02:54,675 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 12:02:55,682 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2018-04-04 12:02:55,682 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2018-04-04 12:02:55,682 src.process                    INFO     FOUND MODEL: ./provers/p9m4/mace4
+2018-04-04 12:02:55,682 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/prover9
+2018-04-04 12:02:55,683 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/vampire_mac
+2018-04-04 12:04:27,644 src.filemgt                    DEBUG    Logging started
+2018-04-04 12:04:27,644 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf
+2018-04-04 12:04:32,528 src.ClifModuleSet              INFO     Creating ClifModuleSet /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 12:04:32,530 src.ClifModule                 INFO     processing module: /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 12:04:32,535 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/most.clif
+2018-04-04 12:04:32,535 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 12:04:32,537 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 12:04:32,801 src.ClifModule                 DEBUG    imports detected in /Users/cchui/Documents/GitHub/colore/ontologies/most/most: set(['molecular_graph/most_graph'])
+2018-04-04 12:04:33,072 src.clif                       DEBUG    Nonlogical symbols: set(['fork', 'bridge', 'saturated', 'skeleton', 'chain', 'fusedSkeleton', 'atom', 'multiply_fused', 'part', 'ringBond', 'mol', 'fused', 'tether', 'unsaturated', 'group', 'spiro', 'alternatinggroup', 'ring', 'bridgehead', 'attached', 'inSkeleton', 'trivialgroup', 'fusedAtom', 'end', 'doublebond', 'between', 'linearskeleton', 'intersects', 'singlebond', 'scaffold', 'bond'])
+2018-04-04 12:04:33,074 src.ClifModule                 INFO     processing module: molecular_graph/most_graph
+2018-04-04 12:04:33,077 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/most_graph.clif
+2018-04-04 12:04:33,077 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 12:04:33,078 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 12:04:33,102 src.ClifModule                 DEBUG    imports detected in molecular_graph/most_graph: set([])
+2018-04-04 12:04:33,127 src.clif                       DEBUG    Nonlogical symbols: set(['atom', 'mol', 'bond'])
+2018-04-04 12:04:33,152 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:04:33,176 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:04:33,200 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:04:33,443 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:04:33,680 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:04:33,921 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:04:34,160 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:04:34,402 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:04:34,646 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:04:34,892 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:04:35,140 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:04:35,392 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:04:35,635 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:04:35,907 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:04:36,158 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:04:36,418 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:04:36,663 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:04:36,947 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:04:37,201 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:04:37,454 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:04:37,725 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:04:37,981 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:04:38,235 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:04:38,504 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:04:38,753 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:04:38,991 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:04:39,241 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:04:39,491 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:04:39,728 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:04:39,979 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:04:40,246 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:04:40,514 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:04:40,767 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:04:41,035 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:04:41,287 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:04:41,528 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:04:41,778 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:04:42,019 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:04:42,264 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:04:42,523 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:04:42,768 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:04:43,016 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:04:43,254 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:04:43,502 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:04:43,739 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:04:43,986 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:04:44,235 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:04:44,483 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:04:44,720 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:04:44,962 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:04:45,207 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:04:45,445 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:04:45,682 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:04:45,928 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:04:46,169 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:04:46,412 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:04:46,651 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:04:46,897 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:04:47,163 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:04:47,409 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:04:47,669 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:04:47,923 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:04:48,175 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:04:48,421 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:04:48,672 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:04:48,703 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:04:48,728 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:04:48,757 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:04:48,823 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:04:48,846 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:04:48,870 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:04:49,121 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:04:49,375 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:04:49,635 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:04:49,909 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:04:50,162 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:04:50,403 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:04:50,655 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:04:50,920 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:04:51,180 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:04:51,453 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:04:51,712 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:04:51,964 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:04:52,232 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:04:52,493 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:04:52,768 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:04:53,026 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:04:53,294 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:04:53,583 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:04:53,856 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:04:54,103 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:04:54,384 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:04:54,645 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:04:54,996 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:04:55,257 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:04:55,512 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:04:55,757 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:04:56,036 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:04:56,309 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:04:56,559 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:04:56,833 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:04:57,097 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:05:17,769 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'mace4']
+2018-04-04 12:05:17,769 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 12:05:17,796 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.p9
+2018-04-04 12:05:18,067 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.p9
+2018-04-04 12:05:18,067 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most])
+2018-04-04 12:05:18,070 src.ClifModuleSet              INFO     USING 2 REASONERS: ['prover9', 'mace4']
+2018-04-04 12:05:18,397 src.filemgt                    DEBUG    Looking for /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf at: .
+2018-04-04 12:05:18,397 src.filemgt                    DEBUG    /Users/cchui/Documents/GitHub/macleod_py2/conf/logging.conf FOUND
+2018-04-04 12:05:18,401 src.filemgt                    DEBUG    Writing 2 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 12:05:19,408 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2018-04-04 12:05:19,409 src.process                    INFO     PROCESSES STILL RUNNING: 1
+2018-04-04 12:05:19,409 src.process                    INFO     FOUND MODEL: ./provers/p9m4/mace4
+2018-04-04 12:05:19,409 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/prover9
+2018-04-04 12:05:19,410 src.process                    DEBUG    SENDING ABORT SIGNAL to ./provers/p9m4/mace4
+2018-04-04 12:05:19,512 src.process                    DEBUG    Final processing of subprocess log queue
+2018-04-04 12:05:20,513 src.filemgt                    DEBUG    Writing 4 lines to subprocess log file /Users/cchui/Documents/GitHub/macleod_py2/log/macleod_sub.log
+2018-04-04 12:05:20,514 src.ClifModuleSet              INFO     UNKNOWN RESULT (0): prover9
+2018-04-04 12:05:20,515 src.ClifModuleSet              INFO     TERMINATED SUCCESSFULLY (1): mace4
+2018-04-04 12:05:20,515 src.ClifModuleSet              INFO     CONSOLIDATED RESULT: 1
+2018-04-04 12:05:20,515 src.ClifModuleSet              INFO     CONSISTENT (return value = 1): /Users/cchui/Documents/GitHub/colore/ontologies/most/most (with imports = set([molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most]))
+2018-04-04 12:05:20,524 tasks.check_consistency        INFO     +++ CONSISTENCY CHECK TERMINATED: PROVED CONSISTENCY OF (molecular_graph/most_graph, /Users/cchui/Documents/GitHub/colore/ontologies/most/most)
+
+2018-04-04 12:08:13,523 src.ClifModuleSet              INFO     Creating ClifModuleSet /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 12:08:13,526 src.ClifModule                 INFO     processing module: /Users/cchui/Documents/GitHub/colore/ontologies/most/most
+2018-04-04 12:08:13,532 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/most.clif
+2018-04-04 12:08:13,532 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 12:08:13,534 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/most/generated/most.clif
+2018-04-04 12:08:13,792 src.ClifModule                 DEBUG    imports detected in /Users/cchui/Documents/GitHub/colore/ontologies/most/most: set(['molecular_graph/most_graph'])
+2018-04-04 12:08:14,056 src.clif                       DEBUG    Nonlogical symbols: set(['fork', 'bridge', 'saturated', 'skeleton', 'chain', 'fusedSkeleton', 'atom', 'multiply_fused', 'part', 'ringBond', 'mol', 'fused', 'tether', 'unsaturated', 'group', 'spiro', 'alternatinggroup', 'ring', 'bridgehead', 'attached', 'inSkeleton', 'trivialgroup', 'fusedAtom', 'end', 'doublebond', 'between', 'linearskeleton', 'intersects', 'singlebond', 'scaffold', 'bond'])
+2018-04-04 12:08:14,058 src.ClifModule                 INFO     processing module: molecular_graph/most_graph
+2018-04-04 12:08:14,061 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/most_graph.clif
+2018-04-04 12:08:14,061 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 12:08:14,062 src.clif                       DEBUG    Writing to /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/generated/most_graph.clif
+2018-04-04 12:08:14,093 src.ClifModule                 DEBUG    imports detected in molecular_graph/most_graph: set([])
+2018-04-04 12:08:14,118 src.clif                       DEBUG    Nonlogical symbols: set(['atom', 'mol', 'bond'])
+2018-04-04 12:08:14,371 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:08:14,623 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:08:14,889 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:08:15,171 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:08:15,425 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:08:15,703 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:08:15,969 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:08:16,221 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:08:16,470 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:08:16,718 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:08:16,959 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:08:17,222 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:08:17,466 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:08:17,713 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:08:17,964 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:08:18,209 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:08:18,468 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:08:18,717 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:08:18,970 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:08:19,217 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:08:19,471 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:08:19,720 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:08:19,971 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:08:20,226 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:08:20,472 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:08:20,723 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:08:20,971 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:08:21,223 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:08:21,483 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:08:21,738 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:08:22,010 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:08:22,035 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:08:22,060 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:08:22,084 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:08:22,352 src.clif                       DEBUG    Nonlogical symbol: fork has arity 1
+2018-04-04 12:08:22,608 src.clif                       DEBUG    Nonlogical symbol: bridge has arity 3
+2018-04-04 12:08:22,858 src.clif                       DEBUG    Nonlogical symbol: saturated has arity 1
+2018-04-04 12:08:23,110 src.clif                       DEBUG    Nonlogical symbol: skeleton has arity 1
+2018-04-04 12:08:23,370 src.clif                       DEBUG    Nonlogical symbol: chain has arity 1
+2018-04-04 12:08:23,634 src.clif                       DEBUG    Nonlogical symbol: fusedSkeleton has arity 1
+2018-04-04 12:08:23,898 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:08:24,153 src.clif                       DEBUG    Nonlogical symbol: multiply_fused has arity 2
+2018-04-04 12:08:24,417 src.clif                       DEBUG    Nonlogical symbol: part has arity 2
+2018-04-04 12:08:24,675 src.clif                       DEBUG    Nonlogical symbol: ringBond has arity 1
+2018-04-04 12:08:24,920 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:08:25,175 src.clif                       DEBUG    Nonlogical symbol: fused has arity 2
+2018-04-04 12:08:25,435 src.clif                       DEBUG    Nonlogical symbol: tether has arity 3
+2018-04-04 12:08:25,681 src.clif                       DEBUG    Nonlogical symbol: unsaturated has arity 1
+2018-04-04 12:08:25,936 src.clif                       DEBUG    Nonlogical symbol: group has arity 1
+2018-04-04 12:08:26,195 src.clif                       DEBUG    Nonlogical symbol: spiro has arity 3
+2018-04-04 12:08:26,449 src.clif                       DEBUG    Nonlogical symbol: alternatinggroup has arity 1
+2018-04-04 12:08:26,716 src.clif                       DEBUG    Nonlogical symbol: ring has arity 1
+2018-04-04 12:08:26,971 src.clif                       DEBUG    Nonlogical symbol: bridgehead has arity 3
+2018-04-04 12:08:27,228 src.clif                       DEBUG    Nonlogical symbol: attached has arity 2
+2018-04-04 12:08:27,497 src.clif                       DEBUG    Nonlogical symbol: inSkeleton has arity 2
+2018-04-04 12:08:27,757 src.clif                       DEBUG    Nonlogical symbol: trivialgroup has arity 1
+2018-04-04 12:08:28,001 src.clif                       DEBUG    Nonlogical symbol: fusedAtom has arity 3
+2018-04-04 12:08:28,266 src.clif                       DEBUG    Nonlogical symbol: end has arity 2
+2018-04-04 12:08:28,523 src.clif                       DEBUG    Nonlogical symbol: doublebond has arity 3
+2018-04-04 12:08:28,783 src.clif                       DEBUG    Nonlogical symbol: between has arity 3
+2018-04-04 12:08:29,046 src.clif                       DEBUG    Nonlogical symbol: linearskeleton has arity 1
+2018-04-04 12:08:29,308 src.clif                       DEBUG    Nonlogical symbol: intersects has arity 2
+2018-04-04 12:08:29,564 src.clif                       DEBUG    Nonlogical symbol: singlebond has arity 3
+2018-04-04 12:08:29,819 src.clif                       DEBUG    Nonlogical symbol: scaffold has arity 1
+2018-04-04 12:08:30,077 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:08:30,113 src.clif                       DEBUG    Nonlogical symbol: atom has arity 1
+2018-04-04 12:08:30,137 src.clif                       DEBUG    Nonlogical symbol: mol has arity 2
+2018-04-04 12:08:30,161 src.clif                       DEBUG    Nonlogical symbol: bond has arity 1
+2018-04-04 12:08:30,447 src.ClifModule                 INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/most/conversions/most.tptp
+2018-04-04 12:08:30,477 src.ClifModule                 INFO     CREATED TPTP TRANSLATION: /Users/cchui/Documents/GitHub/colore/ontologies/molecular_graph/conversions/most_graph.tptp
