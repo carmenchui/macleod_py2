@@ -46,7 +46,7 @@ python gui/gui_alpha.py
 Consistency Check:
 ------------------
 * ladr consistency check appears to work
-![consistency](/doc/img/2018-04-04_12-05-55.jpg?raw=true)
+![consistency](/doc/img/2018-04-04_12-15-30.jpg?raw=true)
 * **vampire has been disabled** in the provers section of macleod\_mac.conf because it throws an OS-level error with python and it causes macleod to hang
 
 Translations:
