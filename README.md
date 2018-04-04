@@ -31,3 +31,5 @@ there is a logging error in line 406 of src/clif.py when the script tries to ope
 tested and confirmed to work for:
 * clif to ladr translation
 * clif to tptp translation
+
+translations will go into the /generated and /conversions file of wherever you store your ontologies (in this case, mine go to the [colore](http://colore.oor.net) repository)
