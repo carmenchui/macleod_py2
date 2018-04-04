@@ -1,4 +1,0 @@
-% cl-imports multidim_space_codi/codi.clif
-% cl-imports multidim_space_codi/definitions/point.clif
-% cl-imports multidim_space_codi/definitions/point_region.clif
-fof(sos1,axiom,( ! [X2] : ( (pointregion(X2)) => (point(X2)) )) ).
