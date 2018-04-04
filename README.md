@@ -26,10 +26,20 @@ ls
 cd macleod_py2
 python gui/gui_alpha.py
 ```
-there is a logging error in line 406 of src/clif.py when the script tries to open a clif file but it does not appear to affect any functionality
+* open a clif file and see if it parses the imports correctly
+![gui](/doc/img/2018-04-04_11-25-39.jpg?raw=true)
 
+Translations:
+-------------
 tested and confirmed to work for:
 * clif to ladr translation
 * clif to tptp translation
 
 translations will go into the /generated and /conversions file of wherever you store your ontologies (in this case, mine go to the [colore](http://colore.oor.net) repository)
+
+Noted Errors:
+-------------
+there is a logging error in line 406 of src/clif.py when the script tries to open a clif file but it does not appear to affect any functionality
+![406error](/doc/img/2018-04-04_11-25-16.jpg?raw=true)
+
+gui does hang for a little bit if working with big files (be patient??)
