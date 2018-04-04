@@ -1,0 +1,326 @@
+2016-05-30 12:24:54,977 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:24:54,977 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:24:54,978 src.ClifModuleSet              INFO     Creating ClifModuleSet overlaps
+2016-05-30 12:24:54,980 src.ClifModule                 INFO     processing module: overlaps
+2016-05-30 12:24:54,982 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:24:54,982 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/generated/overlaps.clif
+2016-05-30 12:26:32,009 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:26:32,009 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:26:32,010 src.ClifModuleSet              INFO     Creating ClifModuleSet overlaps
+2016-05-30 12:26:32,012 src.ClifModule                 INFO     processing module: overlaps
+2016-05-30 12:26:32,014 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:26:32,014 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/generated/overlaps.clif
+2016-05-30 12:27:51,226 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:27:51,226 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:27:51,227 src.ClifModuleSet              INFO     Creating ClifModuleSet overlaps
+2016-05-30 12:27:51,229 src.ClifModule                 INFO     processing module: overlaps
+2016-05-30 12:27:51,231 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:27:51,231 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/generated/overlaps.clif
+2016-05-30 12:28:05,525 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:28:05,525 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:28:05,526 src.ClifModuleSet              INFO     Creating ClifModuleSet overlaps
+2016-05-30 12:28:05,528 src.ClifModule                 INFO     processing module: overlaps
+2016-05-30 12:28:05,530 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:28:05,530 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:28:05,530 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:28:05,587 src.ClifModule                 DEBUG    imports detected in overlaps: set(['part_of', 'other-module'])
+2016-05-30 12:28:05,598 src.clif                       DEBUG    Nonlogical symbols: set(['overlaps', '//', 'part_of', 'exists_at', 'is', 'an', 'quantifier', 'a', 'c', 'b', 'e', 'd', 'g', 'f', 'i', 'h', 'k', 'm', 'l', 'o', 'n', 'this', 's', 'r', 't', 'y', 'existential'])
+2016-05-30 12:28:05,599 src.ClifModule                 INFO     processing module: part_of
+2016-05-30 12:28:05,602 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/part_of.clif
+2016-05-30 12:28:05,602 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/part_of.clif
+2016-05-30 12:28:05,602 src.clif                       ERROR    'Syntax error in clif input: no closing parenthesis found for cl-comment on line 4'
+(cl-text part-of
+
+(cl-comment 'axioms'
+
+2016-05-30 12:28:05,603 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/part_of.clif
+2016-05-30 12:28:05,603 src.clif                       ERROR    Expected "(" (at char 0), (line:1, col:1)
+2016-05-30 12:28:55,410 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:28:55,411 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:28:55,412 src.ClifModuleSet              INFO     Creating ClifModuleSet overlaps
+2016-05-30 12:28:55,414 src.ClifModule                 INFO     processing module: overlaps
+2016-05-30 12:28:55,416 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:28:55,416 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:28:55,416 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/overlaps.clif
+2016-05-30 12:28:55,432 src.ClifModule                 DEBUG    imports detected in overlaps: set([])
+2016-05-30 12:28:55,436 src.clif                       DEBUG    Nonlogical symbols: set(['overlaps', 'exists_at', 'part_of', 'y'])
+2016-05-30 12:28:55,441 src.clif                       DEBUG    Nonlogical symbol: overlaps has arity 3
+2016-05-30 12:28:55,445 src.clif                       DEBUG    Nonlogical symbol: exists_at has arity 2
+2016-05-30 12:28:55,450 src.clif                       DEBUG    Nonlogical symbol: part_of has arity 3
+2016-05-30 12:28:55,455 src.clif                       DEBUG    Nonlogical symbol: y has arity None
+2016-05-30 12:28:55,462 src.clif                       DEBUG    Nonlogical symbol: overlaps has arity 3
+2016-05-30 12:28:55,467 src.clif                       DEBUG    Nonlogical symbol: exists_at has arity 2
+2016-05-30 12:28:55,474 src.clif                       DEBUG    Nonlogical symbol: part_of has arity 3
+2016-05-30 12:28:55,479 src.clif                       DEBUG    Nonlogical symbol: y has arity None
+2016-05-30 12:28:55,484 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 12:28:55,485 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([overlaps])
+2016-05-30 12:46:31,240 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:46:31,240 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:46:31,241 src.ClifModuleSet              INFO     Creating ClifModuleSet rcc_basic
+2016-05-30 12:46:31,243 src.ClifModule                 INFO     processing module: rcc_basic
+2016-05-30 12:46:31,245 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:46:31,245 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:46:31,245 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:46:31,280 src.ClifModule                 DEBUG    imports detected in rcc_basic: set([])
+2016-05-30 12:46:31,304 src.clif                       DEBUG    Nonlogical symbols: set(['C', 'compl', 'NTPP', 'PP', 'EC', 'P', 'O', 'Uni', 'prod', 'sum'])
+2016-05-30 12:46:31,326 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:46:31,347 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:46:31,368 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:46:31,388 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:46:31,413 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:46:31,433 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:46:31,453 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:46:31,474 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:46:31,497 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:46:31,517 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:46:31,539 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:46:31,563 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:46:31,584 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:46:31,604 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:46:31,625 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:46:31,646 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:46:31,666 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:46:31,687 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:46:31,710 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:46:31,732 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:46:31,737 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 12:46:31,738 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([rcc_basic])
+2016-05-30 12:48:50,140 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:48:50,140 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:48:50,141 src.ClifModuleSet              INFO     Creating ClifModuleSet rcc_basic
+2016-05-30 12:48:50,142 src.ClifModule                 INFO     processing module: rcc_basic
+2016-05-30 12:48:50,145 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:48:50,145 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:48:50,145 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:48:50,182 src.ClifModule                 DEBUG    imports detected in rcc_basic: set([])
+2016-05-30 12:48:50,203 src.clif                       DEBUG    Nonlogical symbols: set(['C', 'compl', 'NTPP', 'PP', 'EC', 'P', 'O', 'Uni', 'prod', 'sum'])
+2016-05-30 12:48:50,225 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:48:50,246 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:48:50,268 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:48:50,289 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:48:50,310 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:48:50,331 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:48:50,352 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:48:50,372 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:48:50,393 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:48:50,413 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:48:50,435 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:48:50,459 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:48:50,480 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:48:50,501 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:48:50,523 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:48:50,546 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:48:50,571 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:48:50,591 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:48:50,612 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:48:50,632 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:48:50,637 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 12:48:50,638 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([rcc_basic])
+2016-05-30 12:48:53,265 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:48:53,265 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:48:53,266 src.ClifModuleSet              INFO     Creating ClifModuleSet rcc_basic
+2016-05-30 12:48:53,268 src.ClifModule                 INFO     processing module: rcc_basic
+2016-05-30 12:48:53,270 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:48:53,270 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:48:53,271 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:48:53,302 src.ClifModule                 DEBUG    imports detected in rcc_basic: set([])
+2016-05-30 12:48:53,326 src.clif                       DEBUG    Nonlogical symbols: set(['C', 'compl', 'NTPP', 'PP', 'EC', 'P', 'O', 'Uni', 'prod', 'sum'])
+2016-05-30 12:48:53,348 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:48:53,369 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:48:53,391 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:48:53,412 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:48:53,436 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:48:53,458 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:48:53,479 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:48:53,501 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:48:53,524 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:48:53,547 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:48:53,570 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:48:53,591 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:48:53,617 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:48:53,638 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:48:53,659 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:48:53,681 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:48:53,707 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:48:53,732 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:48:53,758 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:48:53,779 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:48:53,784 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 12:48:53,785 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([rcc_basic])
+2016-05-30 12:49:49,701 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:49:49,701 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:49:49,703 src.ClifModuleSet              INFO     Creating ClifModuleSet rcc_basic
+2016-05-30 12:49:49,704 src.ClifModule                 INFO     processing module: rcc_basic
+2016-05-30 12:49:49,707 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:49:49,707 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:49:49,707 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:49:49,740 src.ClifModule                 DEBUG    imports detected in rcc_basic: set([])
+2016-05-30 12:49:49,765 src.clif                       DEBUG    Nonlogical symbols: set(['C', 'compl', 'NTPP', 'PP', 'EC', 'P', 'O', 'Uni', 'prod', 'sum'])
+2016-05-30 12:49:49,786 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:49:49,810 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:49:49,839 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:49:49,860 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:49:49,881 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:49:49,904 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:49:49,925 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:49:49,945 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:49:49,966 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:49:49,987 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:49:50,014 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:49:50,034 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:49:50,055 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:49:50,075 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:49:50,100 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:49:50,120 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:49:50,141 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:49:50,161 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:49:50,182 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:49:50,207 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:49:50,212 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 12:49:50,213 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([rcc_basic])
+2016-05-30 12:49:50,236 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Downloads/macleod-master/test/rcc_basic.p9
+2016-05-30 12:49:50,237 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([rcc_basic])
+2016-05-30 12:49:57,167 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:49:57,167 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:49:57,168 src.ClifModuleSet              INFO     Creating ClifModuleSet rcc_basic
+2016-05-30 12:49:57,170 src.ClifModule                 INFO     processing module: rcc_basic
+2016-05-30 12:49:57,172 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:49:57,172 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:49:57,173 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:49:57,208 src.ClifModule                 DEBUG    imports detected in rcc_basic: set([])
+2016-05-30 12:49:57,231 src.clif                       DEBUG    Nonlogical symbols: set(['C', 'compl', 'NTPP', 'PP', 'EC', 'P', 'O', 'Uni', 'prod', 'sum'])
+2016-05-30 12:49:57,253 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:49:57,277 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:49:57,301 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:49:57,323 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:49:57,344 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:49:57,369 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:49:57,391 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:49:57,416 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:49:57,438 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:49:57,460 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:49:57,491 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 12:49:57,512 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 12:49:57,534 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 12:49:57,556 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 12:49:57,582 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 12:49:57,606 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 12:49:57,628 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 12:49:57,649 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 12:49:57,670 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 12:49:57,691 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 12:49:57,697 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 12:49:57,697 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([rcc_basic])
+2016-05-30 12:49:57,722 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Downloads/macleod-master/test/rcc_basic.p9
+2016-05-30 12:49:57,723 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([rcc_basic])
+2016-05-30 12:49:57,753 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Downloads/macleod-master/test/rcc_basic.all.tptp
+2016-05-30 12:49:57,753 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Downloads/macleod-master/test/rcc_basic.all.tptp']
+2016-05-30 12:49:57,754 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([rcc_basic])
+2016-05-30 12:49:57,756 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2016-05-30 12:49:58,200 src.filemgt                    DEBUG    Looking for /Users/cchui/Downloads/macleod-master/conf/logging.conf at: .
+2016-05-30 12:49:58,201 src.filemgt                    DEBUG    /Users/cchui/Downloads/macleod-master/conf/logging.conf FOUND
+2016-05-30 12:49:58,203 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Downloads/macleod-master/log/macleod_sub.log
+2016-05-30 12:57:56,836 src.filemgt                    DEBUG    Logging started
+2016-05-30 12:57:56,836 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 12:57:56,838 src.ClifModuleSet              INFO     Creating ClifModuleSet rcc_basic
+2016-05-30 12:57:56,839 src.ClifModule                 INFO     processing module: rcc_basic
+2016-05-30 12:57:56,841 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 12:57:56,841 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/generated/rcc_basic.clif
+2016-05-30 16:00:25,300 src.filemgt                    DEBUG    Logging started
+2016-05-30 16:00:25,300 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 16:00:25,301 src.ClifModuleSet              INFO     Creating ClifModuleSet test/rcc_basic.clip
+2016-05-30 16:00:25,303 src.ClifModule                 INFO     processing module: test/rcc_basic.clip
+2016-05-30 16:00:25,305 src.filemgt                    INFO     CREATED FOLDER: /Users/cchui/Downloads/macleod-master/test/generated
+2016-05-30 16:00:25,305 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clip.clif
+2016-05-30 16:00:25,305 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/generated/rcc_basic.clip.clif
+2016-05-30 16:00:29,355 src.filemgt                    DEBUG    Logging started
+2016-05-30 16:00:29,355 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 16:00:29,357 src.ClifModuleSet              INFO     Creating ClifModuleSet test/rcc_basic
+2016-05-30 16:00:29,358 src.ClifModule                 INFO     processing module: test/rcc_basic
+2016-05-30 16:00:29,361 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 16:00:29,361 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/generated/rcc_basic.clif
+2016-05-30 16:00:29,361 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/generated/rcc_basic.clif
+2016-05-30 16:00:29,397 src.ClifModule                 DEBUG    imports detected in test/rcc_basic: set([])
+2016-05-30 16:00:29,420 src.clif                       DEBUG    Nonlogical symbols: set(['C', 'compl', 'NTPP', 'PP', 'EC', 'P', 'O', 'Uni', 'prod', 'sum'])
+2016-05-30 16:00:29,443 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 16:00:29,463 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 16:00:29,485 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 16:00:29,506 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 16:00:29,527 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 16:00:29,548 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 16:00:29,568 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 16:00:29,588 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 16:00:29,616 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 16:00:29,638 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 16:00:29,659 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 16:00:29,682 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 16:00:29,706 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 16:00:29,729 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 16:00:29,752 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 16:00:29,775 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 16:00:29,795 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 16:00:29,816 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 16:00:29,836 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 16:00:29,857 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 16:00:29,858 src.filemgt                    INFO     CREATED FOLDER: /Users/cchui/Downloads/macleod-master/test/output
+2016-05-30 16:00:29,862 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 16:00:29,863 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([test/rcc_basic])
+2016-05-30 16:00:29,865 src.filemgt                    INFO     CREATED FOLDER: /Users/cchui/Downloads/macleod-master/test/conversions
+2016-05-30 16:00:29,887 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Downloads/macleod-master/test/conversions/rcc_basic.p9
+2016-05-30 16:00:29,888 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([test/rcc_basic])
+2016-05-30 16:00:29,916 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Downloads/macleod-master/test/conversions/rcc_basic.all.tptp
+2016-05-30 16:00:29,916 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Downloads/macleod-master/test/conversions/rcc_basic.all.tptp']
+2016-05-30 16:00:29,916 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([test/rcc_basic])
+2016-05-30 16:00:29,918 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2016-05-30 16:00:30,351 src.filemgt                    DEBUG    Looking for /Users/cchui/Downloads/macleod-master/conf/logging.conf at: .
+2016-05-30 16:00:30,351 src.filemgt                    DEBUG    /Users/cchui/Downloads/macleod-master/conf/logging.conf FOUND
+2016-05-30 16:00:30,352 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Downloads/macleod-master/log/macleod_sub.log
+2016-05-30 16:00:31,359 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2016-05-30 16:00:31,359 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2016-05-30 16:00:31,359 src.filemgt                    DEBUG    Writing 1 lines to subprocess log file /Users/cchui/Downloads/macleod-master/log/macleod_sub.log
+2016-05-30 16:05:11,250 src.filemgt                    DEBUG    Logging started
+2016-05-30 16:05:11,250 src.filemgt                    DEBUG    Logging configuration read from /Users/cchui/Downloads/macleod-master/conf/logging.conf
+2016-05-30 16:05:11,252 src.ClifModuleSet              INFO     Creating ClifModuleSet test/rcc_basic
+2016-05-30 16:05:11,253 src.ClifModule                 INFO     processing module: test/rcc_basic
+2016-05-30 16:05:11,256 src.ClifModule                 DEBUG    Clif file name = /Users/cchui/Downloads/macleod-master/test/rcc_basic.clif
+2016-05-30 16:05:11,256 src.ClifModule                 DEBUG    Clif preprocessed file name = /Users/cchui/Downloads/macleod-master/test/generated/rcc_basic.clif
+2016-05-30 16:05:11,256 src.clif                       DEBUG    Writing to /Users/cchui/Downloads/macleod-master/test/generated/rcc_basic.clif
+2016-05-30 16:05:11,288 src.ClifModule                 DEBUG    imports detected in test/rcc_basic: set([])
+2016-05-30 16:05:11,310 src.clif                       DEBUG    Nonlogical symbols: set(['C', 'compl', 'NTPP', 'PP', 'EC', 'P', 'O', 'Uni', 'prod', 'sum'])
+2016-05-30 16:05:11,333 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 16:05:11,355 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 16:05:11,376 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 16:05:11,397 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 16:05:11,418 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 16:05:11,440 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 16:05:11,461 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 16:05:11,482 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 16:05:11,504 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 16:05:11,526 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 16:05:11,548 src.clif                       DEBUG    Nonlogical symbol: C has arity 2
+2016-05-30 16:05:11,569 src.clif                       DEBUG    Nonlogical symbol: compl has arity 1
+2016-05-30 16:05:11,590 src.clif                       DEBUG    Nonlogical symbol: NTPP has arity 2
+2016-05-30 16:05:11,611 src.clif                       DEBUG    Nonlogical symbol: PP has arity 2
+2016-05-30 16:05:11,632 src.clif                       DEBUG    Nonlogical symbol: EC has arity 2
+2016-05-30 16:05:11,653 src.clif                       DEBUG    Nonlogical symbol: P has arity 2
+2016-05-30 16:05:11,674 src.clif                       DEBUG    Nonlogical symbol: O has arity 2
+2016-05-30 16:05:11,696 src.clif                       DEBUG    Nonlogical symbol: Uni has arity None
+2016-05-30 16:05:11,718 src.clif                       DEBUG    Nonlogical symbol: prod has arity 2
+2016-05-30 16:05:11,740 src.clif                       DEBUG    Nonlogical symbol: sum has arity 2
+2016-05-30 16:05:11,745 src.ReasonerSet                DEBUG    REASONER SET: ['prover9', 'vampire', 'mace4']
+2016-05-30 16:05:11,746 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: prover9 FROM set([test/rcc_basic])
+2016-05-30 16:05:11,770 src.ClifModule                 INFO     CREATED LADR TRANSLATION: /Users/cchui/Downloads/macleod-master/test/conversions/rcc_basic.p9
+2016-05-30 16:05:11,771 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: vampire FROM set([test/rcc_basic])
+2016-05-30 16:05:11,796 src.ClifModuleSet              INFO     CREATED TPTP TRANSLATION: /Users/cchui/Downloads/macleod-master/test/conversions/rcc_basic.all.tptp
+2016-05-30 16:05:11,796 src.commands                   DEBUG    COMMAND FOR vampire IS ['./provers/vampire_mac', '--mode', 'casc', '--proof', 'tptp', '-t', '300', '--input_file', '/Users/cchui/Downloads/macleod-master/test/conversions/rcc_basic.all.tptp']
+2016-05-30 16:05:11,797 src.commands                   DEBUG    CONSTRUCTING COMMAND FOR: mace4 FROM set([test/rcc_basic])
+2016-05-30 16:05:11,799 src.ClifModuleSet              INFO     USING 3 REASONERS: ['prover9', 'vampire', 'mace4']
+2016-05-30 16:05:12,222 src.filemgt                    DEBUG    Looking for /Users/cchui/Downloads/macleod-master/conf/logging.conf at: .
+2016-05-30 16:05:12,223 src.filemgt                    DEBUG    /Users/cchui/Downloads/macleod-master/conf/logging.conf FOUND
+2016-05-30 16:05:12,224 src.filemgt                    DEBUG    Writing 3 lines to subprocess log file /Users/cchui/Downloads/macleod-master/log/macleod_sub.log
+2016-05-30 16:05:13,229 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/prover9
+2016-05-30 16:05:13,230 src.process                    INFO     PROCESSES STILL RUNNING: 2
+2016-05-30 16:05:13,230 src.filemgt                    DEBUG    Writing 1 lines to subprocess log file /Users/cchui/Downloads/macleod-master/log/macleod_sub.log
+2016-05-30 16:10:15,785 src.process                    INFO     TERMINATED WITHOUT SUCCESS: ./provers/p9m4/mace4
+2016-05-30 16:10:15,785 src.process                    INFO     PROCESSES STILL RUNNING: 1
+2016-05-30 16:10:15,785 src.filemgt                    DEBUG    Writing 1 lines to subprocess log file /Users/cchui/Downloads/macleod-master/log/macleod_sub.log

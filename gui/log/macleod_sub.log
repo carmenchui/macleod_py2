@@ -1,0 +1,3 @@
+2016-07-28 13:06:56,709 ReasonerProcess                INFO     STARTING: ReasonerProcess-1, command = ./provers/p9m4/prover9
+2016-07-28 13:06:56,841 ReasonerProcess                INFO     STARTING: ReasonerProcess-2, command = ./provers/vampire_mac
+2016-07-28 13:06:56,975 ReasonerProcess                INFO     STARTING: ReasonerProcess-3, command = ./provers/p9m4/mace4

@@ -1,0 +1,15 @@
+% cl-imports multidim_space_ped/ped.clif
+% cl-imports multidim_space_codib/codib_updown.clif
+% cl-imports multidim_space_codi/definitions/icon.clif
+fof(sos10,axiom,( ! [X11] : (~ (ped(X11)) | ~ (s(X11)))) ).
+fof(sos20,axiom,( ! [X21] : s(r(X21))) ).
+fof(sos30,axiom,( ! [X31] : ( (s(X31)) <=> ((X31=r(X31))) )) ).
+fof(sos40,axiom,( ! [X42] : ! [X41] : ( (cont(X42, X41)) => ((s(X42) & s(X41))) )) ).
+fof(sos50,axiom,( ! [X52] : ! [X51] : ( (lt(X52, X51)) => ((s(X52) & s(X51))) )) ).
+fof(sos60,axiom,( ! [X61] : ( (zex(X61)) => (s(X61)) )) ).
+fof(sos70,axiom,( ! [X72] : ! [X71] : ( (bcont(X72, X71)) => ((s(X72) & s(X71))) )) ).
+fof(sos80,axiom,( ! [X81] : ( (ped(X81)) => (maxdim(r(X81))) )) ).
+fof(sos90,axiom,( ! [X92] : ! [X91] : ( (dk1(X92, X91)) => (p(r(X92), r(X91))) )) ).
+fof(sos100,axiom,( ! [X102] : ! [X101] : ( (hosts(X102, X101)) => (( (rpf(X101)) <=> (p(r(X101), r(X102))) )) )) ).
+fof(sos110,axiom,( ! [X112] : ! [X111] : ! [X113] : ! [X114] : ( ((hosts(X112, X111) & rpf(X111) & dk1(X113, X112) & dk1(X114, X111))) => (p(r(X114), r(X113))) )) ).
+fof(sos120,axiom,( ! [X122] : ! [X121] : ( (hosts(X122, X121)) => (( (dpf(X121)) <=> (~ (po(r(X122), r(X121)))) )) )) ).

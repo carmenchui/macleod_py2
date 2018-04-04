@@ -1,0 +1,6 @@
+formulas(sos).
+% cl-imports multidim_space_codi/codi.clif
+% cl-imports multidim_space_codi/definitions/point.clif
+% cl-imports multidim_space_codi/definitions/point_region.clif
+( all x2 ( (pointregion(x2)) -> (point(x2)) )) .
+end_of_list.

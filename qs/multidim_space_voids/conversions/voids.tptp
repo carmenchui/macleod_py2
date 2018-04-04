@@ -1,0 +1,15 @@
+% cl-imports multidim_space_spch/spch.clif
+% cl-imports multidim_space_ped/definitions/mat.clif
+fof(sos10,axiom,( ! [X12] : ! [X11] : ( (vs(X12, X11)) <=> ((ped(X12) & s(X11) & cont(X11, ch(X12)) & ~ (po(X11, r(X12))))) )) ).
+fof(sos20,axiom,( ! [X22] : ! [X21] : ( (simplev(X21)) <=> ((icon(r(X21)) & ( ? [X22] : hostsv(X22, X21)) )) )) ).
+fof(sos30,axiom,( ! [X32] : ! [X31] : ( (complexv(X31)) <=> ((~ (icon(r(X31))) & ( ? [X32] : hostsv(X32, X31)) )) )) ).
+fof(sos40,axiom,( ! [X41] : ( (v(X41)) <=> ((simplev(X41) | complexv(X41))) )) ).
+fof(sos50,axiom,( ! [X52] : ! [X51] : ( (hostsv(X52, X51)) => ((hosts(X52, X51) & vs(X52, r(X51)) & strongc(r(X52), r(X51)))) )) ).
+fof(sos60,axiom,( ! [X62] : ! [X61] : ! [X63] : ( ((hostsv(X62, X61) & complexv(X61) & po(r(X63), r(X61)))) => (( ? [X64] : (hostsv(X62, X64) & simplev(X64) & po(r(X63), r(X64)))) ) )) ).
+fof(sos70,axiom,( ! [X72] : ! [X71] : ( ((hosts(X72, X71) & v(X71))) => (~ (v(X72))) )) ).
+fof(sos80,axiom,( ! [X82] : ! [X81] : ( ((hostsv(X82, X81) & rpf(X82))) => (( ? [X83] : (hosts(X83, X82) & ~ (f(X83)) & hostsv(X83, X81))) ) )) ).
+fof(sos90,axiom,( ! [X92] : ! [X91] : ( ((hostsv(X92, X91) & ~ (f(X92)))) => (( ? [X93] : (hosts(X92, X93) & rpf(X93) & hostsv(X93, X91))) ) )) ).
+fof(sos100,axiom,( ! [X102] : ! [X101] : ! [X103] : ( ((hostsv(X102, X101) & hostsv(X102, X103) & po(r(X101), r(X103)))) => ((cont(r(X101), r(X103)) | cont(r(X103), r(X101)))) )) ).
+fof(sos110,axiom,( ! [X112] : ! [X111] : ! [X114] : ( ((hostsv(X112, X111) & p(r(X112), r(X111)) & ped(X111) & ~ (dpf(X111)) & ~ (cont(r(X114), r(X111))))) => (( ? [X113] : (cont(difference(r(X114), r(X111)), r(X113)) & hostsv(X111, X113))) ) )) ).
+fof(sos120,axiom,( ! [X122] : ! [X121] : ! [X124] : ( ((hostsv(X122, X124) & p(r(X121), r(X122)) & ped(X121) & ~ (dpf(X121)) & po(r(X124), ch(X121)))) => (( ? [X123] : ((r(X123)=intersection(r(X124), ch(X121))) & hostsv(X121, X123))) ) )) ).
+fof(sos130,axiom,( ! [X132] : ! [X131] : ! [X133] : ( ((mat(X131) & mat(X133) & hostsv(X131, X132) & p(r(X131), r(X133)) & ~ (po(r(X133), r(X132))))) => (hostsv(X133, X132)) )) ).

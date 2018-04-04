@@ -1,0 +1,20 @@
+
+
+(cl-text http://colore.oor.net/multidim_space_codi/codi_atomic_point_regions.clif
+
+(cl-imports http://colore.oor.net/multidim_space_codi/codi.clif)
+
+(cl-imports http://colore.oor.net/multidim_space_codi/definitions/point.clif)
+
+(cl-imports http://colore.oor.net/multidim_space_codi/definitions/point_region.clif)
+
+
+
+(forall (x)
+	(if
+		(PointRegion x)
+        (Point x)
+	)
+)
+	
+)

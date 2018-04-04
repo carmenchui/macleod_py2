@@ -1,0 +1,13 @@
+formulas(sos).
+( all x12 all x11 ( (p(x12, x11)) <-> (( all x13 ( (c(x13, x12)) -> (c(x13, x11)) )) ) )) .
+( all x22 all x21 ( (pp(x22, x21)) <-> ((p(x22, x21) & - (p(x21, x22)))) )) .
+( all x32 all x31 ( (o(x32, x31)) <-> (( exists x33 (p(x33, x32) & p(x33, x31))) ) )) .
+( all x42 all x41 ( (ec(x42, x41)) <-> ((c(x42, x41) & - (o(x42, x41)))) )) .
+( all x52 all x51 ( (ntpp(x52, x51)) <-> ((pp(x52, x51) & - (( exists x53 (ec(x53, x52) & ec(x53, x51))) ))) )) .
+( all x61 c(x61, x61)) .
+( all x72 all x71 ( (c(x72, x71)) -> (c(x71, x72)) )) .
+( all x81 c(x81, uni)) .
+( all x92 all x91 ( (- ((x91=Uni))) -> (( (o(x92, compl(x91))) <-> (- (p(x92, x91))) )) )) .
+( all x102 all x101 all x103 ( (c(x102, sum(x101, x103))) <-> ((c(x102, x101) | c(x102, x103))) )) .
+( all x112 all x111 all x113 ( (o(x111, x113)) -> (( (c(x112, prod(x111, x113))) <-> (( exists x114 (p(x114, x111) & p(x114, x113) & c(x112, x114))) ) )) )) .
+end_of_list.
