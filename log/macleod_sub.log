@@ -197,3 +197,17 @@
 2018-04-07 11:26:55,688 ReasonerProcess                DEBUG    RECEIVED ABORT SIGNAL: ReasonerProcess-4, command = /Users/cchui/Documents/GitHub/macleod_py2/provers/vampire_mac
 2018-04-07 11:26:56,497 ReasonerProcess                DEBUG    ABORTING: ReasonerProcess-4, command = /Users/cchui/Documents/GitHub/macleod_py2/provers/vampire_mac
 2018-04-07 11:26:56,700 ReasonerProcess                INFO     ABORTED: ReasonerProcess-4, command = /Users/cchui/Documents/GitHub/macleod_py2/provers/vampire_mac
+2018-04-07 11:44:22,206 ReasonerProcess                INFO     STARTING: ReasonerProcess-1, command = ./provers/p9m4/prover9
+2018-04-07 11:44:22,309 ReasonerProcess                INFO     STARTING: ReasonerProcess-2, command = ./provers/vampire_mac
+2018-04-07 11:44:22,413 ReasonerProcess                INFO     STARTING: ReasonerProcess-3, command = ./provers/p9m4/mace4
+2018-04-07 11:44:22,516 ReasonerProcess                INFO     STARTING: ReasonerProcess-4, command = ./provers/vampire_mac
+2018-04-07 11:44:23,232 ReasonerProcess                INFO     FINISHED: ReasonerProcess-1, command = ./provers/p9m4/prover9
+2018-04-07 11:44:23,436 ReasonerProcess                INFO     FINISHED: ReasonerProcess-3, command = ./provers/p9m4/mace4
+2018-04-07 11:44:23,722 ReasonerProcess                DEBUG    RECEIVED ABORT SIGNAL: ReasonerProcess-1, command = ./provers/p9m4/prover9
+2018-04-07 11:44:23,723 ReasonerProcess                DEBUG    RECEIVED ABORT SIGNAL: ReasonerProcess-2, command = ./provers/vampire_mac
+2018-04-07 11:44:24,339 ReasonerProcess                DEBUG    ABORTING: ReasonerProcess-2, command = ./provers/vampire_mac
+2018-04-07 11:44:24,540 ReasonerProcess                INFO     ABORTED: ReasonerProcess-2, command = ./provers/vampire_mac
+2018-04-07 11:44:24,836 ReasonerProcess                DEBUG    RECEIVED ABORT SIGNAL: ReasonerProcess-3, command = ./provers/p9m4/mace4
+2018-04-07 11:44:24,837 ReasonerProcess                DEBUG    RECEIVED ABORT SIGNAL: ReasonerProcess-4, command = ./provers/vampire_mac
+2018-04-07 11:44:25,553 ReasonerProcess                DEBUG    ABORTING: ReasonerProcess-4, command = ./provers/vampire_mac
+2018-04-07 11:44:25,755 ReasonerProcess                INFO     ABORTED: ReasonerProcess-4, command = ./provers/vampire_mac
