@@ -99,6 +99,8 @@ def get_vampire_cmd (imports,ouput_stem):
     args.append('casc')
     args.append('--proof')
     args.append('tptp')
+#    args.append('--latex_output')
+#    args.append(filemgt.read_config('vampire','latexfile'))
     args.append('-t')
     args.append(filemgt.read_config('vampire','timeout'))
     # needed for Windows
