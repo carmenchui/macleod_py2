@@ -16,7 +16,7 @@ if __name__ == '__main__':
     options.reverse()
     options.pop()
     folder = options.pop()
-    ladr_all(folder, options)
+    tptp_all(folder, options)
 
 
 #    for directory, subdirs, files in os.walk(folder):
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 #                    clif_to_ladr.ladr(filename, m, options)
 
 
-def ladr_all(folder, options=[]):
+def tptp_all(folder, options=[]):
     for directory, subdirs, files in os.walk(folder):
         if any(ignore in directory for ignore in ignores):
             pass

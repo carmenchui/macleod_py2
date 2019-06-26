@@ -259,7 +259,7 @@ class GUI(Frame):
                 command=lambda: ladr_all(self.selected_folder))
             clif_to_ladr_all.pack(side=TOP)
             clif_to_tptp_all = Button(self.task_pane, text="Clif to TPTP (ALL)", \
-                command=lambda: ladr_all(self.selected_folder))
+                command=lambda: tptp_all(self.selected_folder))
             clif_to_tptp_all.pack(side=TOP)
             prove_lemma_all = Button(self.task_pane, text="Prove Lemma (ALL)", \
                 command=lambda: prove_all(self.selected_folder))
