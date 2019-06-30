@@ -29,6 +29,7 @@ from tasks.clif_to_tptp import *
 from tasks.prove_lemma import *
 from tasks.check_nontrivial_consistency import *
 from tasks.check_consistency_all import *
+from tasks.check_consistency_carmen import *
 from tasks.clif_to_ladr_all import *
 from tasks.clif_to_tptp_all import *
 from tasks.prove_lemma_all import *
@@ -143,6 +144,10 @@ class GUI(Frame):
         """ Run a hardcoded consistent() """
         consistent(self.selected_file)
 
+    def consistency_all(self):
+        """ Run a hardcoded consistent() """
+        consistent(self.selected_folder)
+
     def zoom(self, io):
         """ Zoom into and out of the tree """
         if io:
@@ -255,6 +260,10 @@ class GUI(Frame):
                 command=lambda: tptp(self.selected_file, self.module))
             prove_lemma.pack(side=TOP)
         else:
+            #added by carmen
+            consist_all = Button(self.task_pane, text="Check Consistency (ALL)", \
+                command=lambda: consistent_all(self.selected_folder))
+            consist_all.pack(side=TOP)
             clif_to_ladr_all = Button(self.task_pane, text="Clif to LADR (ALL)", \
                 command=lambda: ladr_all(self.selected_folder))
             clif_to_ladr_all.pack(side=TOP)
