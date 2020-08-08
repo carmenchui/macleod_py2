@@ -31,6 +31,8 @@ if __name__ == '__main__':
                         pass
                     filename = os.path.join(directory.replace('qs\\',''), single_file)
 #                    print filename
+                    from src.ClifModuleSet import ClifModuleSet
+                    m = ClifModuleSet(filename)
                     (result, _) = check_consistency.consistent(filename, options=['-simple'])
                     if result is True:
                         good += 1
